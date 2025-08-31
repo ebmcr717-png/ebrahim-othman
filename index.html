@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي الشخصي - إبراهيم عثمان</title>
+
+  <!-- CSS مبسط وسهل الفهم -->
+  <style>
+    /* تنسيق الصفحة الأساسية */
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* شريط التنقل */
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      background: rgba(255,255,255,0.2);
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 16px;
+    }
+   
+
+    /* كل صفحة داخل الموقع */
+    .page {
+      background: rgba(255,255,255,0.1);
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.6em;
+      color: #ffd700;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    /* الصورة الشخصية */
+    .profile-photo {
+      width: 160px;
+      height: 160px;
+      margin: 15px auto;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 4px solid rgba(255,255,255,0.3);
+    }
+    .profile-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* مربعات المهارات */
+    .skill-box {
+      background: rgba(255,255,255,0.2);
+      padding: 12px;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 8px;
+      width: 185px;
+    }
+
+    /* مربعات المشاريع والتواصل */
+    .info-box {
+      background: rgba(255,255,255,0.2);
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px 0;
+      text-align: start;
+    }
+    .info-box h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- شريط التنقل -->
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#about">عني</a>
+      <a href="#skills">مهاراتي</a>
+      <a href="#projects">مشاريعي</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+
+    <!-- الصفحة الرئيسية -->
+    <div id="home" class="page">
+      <div class="profile-photo">
+        <img src="Dofoto_٢٠٢٥٠٨٠٥_٢٣٢٢٣٧١٨٩.jpg" alt="صورتي الشخصية">
+      </div>
+      <h1>مرحباً بكم في موقعي</h1>
+      <h2>إبراهيم عثمان</h2>
+      <p>طالب تقنية المعلومات - جامعة صنعاء</p>
+      <p>أهلاً وسهلاً بكم في موقعي الشخصي حيث يمكنكم التعرف على مسيرتي الأكاديمية ومهاراتي في مجال التقنية.</p>
+    </div>
+
+    <!-- عني -->
+    <div id="about" class="page">
+      <h2>نبذة عني</h2>
+      <p>أنا إبراهيم عثمان، طالب في كلية الحاسوب وتقنية المعلومات بجامعة صنعاء.</p>
+      <p>أدرس تخصص تقنية المعلومات وأسعى لتطوير مهاراتي في البرمجة وتطوير المواقع.</p>
+      <p>أحب التعلم والاستطلاع في مجال التقنية والتكنولوجيا الحديثة.</p>
+    </div>
+
+    <!-- المهارات -->
+    <div id="skills" class="page">
+      <h2>مهاراتي</h2>
+      <div class="skill-box">
+        <h3>🐍 Python</h3>
+        <p>برمجة وتطوير</p>
+      </div>
+      <div class="skill-box">
+        <h3>⚡ C++</h3>
+        <p>برمجة كائنية</p>
+      </div>
+      <div class="skill-box">
+        <h3>🌐 الويب</h3>
+        <p>HTML, CSS, JS</p>
+      </div>
+      <div class="skill-box">
+        <h3>🗄️ قواعد البيانات</h3>
+        <p>تصميم وإدارة</p>
+      </div>
+      <div class="skill-box">
+        <h3>🔗 الشبكات</h3>
+        <p>إدارة الشبكات</p>
+      </div>
+    </div>
+
+    <!-- المشاريع -->
+    <div id="projects" class="page">
+      <h2>مشاريعي</h2>
+      <div class="info-box">
+        <h3>🌐 مشروع الشبكات المدنية</h3>
+        <p>تصميم وتطوير شبكة حاسوبية للمؤسسات المدنية مع دراسة البنية التحتية والأمان.</p>
+      </div>
+      <div class="info-box">
+        <h3>💻 مشروع C++</h3>
+        <p>تطبيق برمجي يستخدم مفاهيم البرمجة الكائنية وإدارة البيانات.</p>
+      </div>
+      <div class="info-box">
+        <h3>🗄️ مشروع قواعد البيانات</h3>
+        <p>تصميم وتطوير قاعدة بيانات متكاملة مع واجهات للإدخال والاستعلام.</p>
+      </div>
+      <div class="info-box">
+        <h3>🌟 موقعي الشخصي</h3>
+        <p>هذا الموقع الذي تتصفحونه الآن باستخدام HTML وCSS فقط.</p>
+      </div>
+    </div>
+
+    <!-- التواصل -->
+    <div id="contact" class="page">
+      <h2>تواصل معي</h2>
+      <div class="info-box">
+        <h3>📧 البريد الإلكتروني</h3>
+        <p>ibrahim.othman@student.su.edu.ye</p>
+      </div>
+      <div class="info-box">
+        <h3>🎓 الجامعة</h3>
+        <p>جامعة صنعاء - كلية الحاسوب وتقنية المعلومات</p>
+      </div>
+      <div class="info-box">
+        <h3>📱 للتواصل</h3>
+        <p>يمكنكم التواصل معي عبر البريد الإلكتروني الجامعي.</p>
+      </div>
+      <a href="https://wa.me/967772102394" target="_blank" style="text-decoration:none; color:white; background:#25D366;
+       padding:8px 12px; border-radius:5px; display:inline-block;">
+  📱 تواصل معي على واتساب
+</a>
+
+    </div>
+
+  </div>
+</body>
+</html>
